@@ -1,5 +1,5 @@
 data "aws_security_group" "trial" {
-    name = launch-wizard-6
+    name = "launch-wizard-6"
 }
 
 output "sg" {

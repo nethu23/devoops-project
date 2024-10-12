@@ -24,7 +24,7 @@ output "list" {
 }
 
 output "map" {
-    value = var.z_map[x]
+    value = var.z_map["x"]
 }
 
 output "env" {

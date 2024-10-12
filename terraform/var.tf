@@ -28,5 +28,5 @@ output "map" {
 }
 
 output "env" {
-    value = environment name - ${var.env}
+    value = "Environment Name - ${var.env}"
 }
